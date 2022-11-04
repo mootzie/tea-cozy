@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+}
+/* .hedaer {
+    position: fixed;
+} */
+.header img {
+  margin: 10px 10px;
+  height: 50px;
+}
+.header ul {
+  float: right;
+  display: inline-flex;
+  margin-top: 40px;
+  list-style: none;
+  justify-content: flex-end;
+}
+.header ul a {
+  color: white;
+  margin-right: 5px;
+}
+
+.jumbotron {
+  height: 700px;
+  background-image: url(./assets/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  margin: 10px 40px;
+  text-align: center;
+}
+.jumbotron-text {
+  position: absolute;
+  color: wheat;
+  top: 50%;
+  line-height: 50px;
+  width: 100%;
+}
+.jumbotron-text h1 {
+  font-size: 3rem;
+}
+.jumbotron-text h4 {
+  font-size: 2rem;
+}
+
+.gallery {
+  color: wheat;
+  text-align: center;
+  margin: 40px 40px;
+  line-height: 40px;
+}
+.gallery h4 {
+  margin-bottom: 40px;
+}
+.gallery ul {
+  list-style-type: none;
+}
+.gallery .image-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.image-gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.locations {
+  height: 700px;
+  background-image: url(/assets/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  margin: 40px;
+  text-align: center;
+  color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  opacity: 0.8;
+}
+.locations .location1 {
+  line-height: 50px;
+  width: 250px;
+  margin: 0 30px;
+  padding: 40px 20px;
+}
+.locations h1 {
+  text-align: center;
+  display: block;
+}
+.locations .location2 {
+  line-height: 50px;
+  width: 250px;
+  margin: 0 30px;
+  padding: 40px 20px;
+}
+.locations .location3 {
+  line-height: 50px;
+  width: 250px;
+  margin: 0 30px;
+  padding: 40px 20px;
+}
+.locations ul {
+  list-style-type: none;
+}
